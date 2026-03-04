@@ -38,9 +38,9 @@ public class MyDeque<E> implements Deque<E> {
         return list.size();
     }
 
-    // ... for iterator ...
-    public E Iterator {
-        
+    @Override
+    public Iterator<E> iterator() {
+        throw new UnsupportedOperationException();
     }
 
     public static void main(String[] args) { 
