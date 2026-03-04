@@ -32,18 +32,22 @@ public class MyDeque<E> implements Deque<E> {
     public E dequeueBack() {
         return list.removeLast();
     }
-
+    @Override
     // ... for size ...
     public int size() {
         return list.size();
     }
 
     // ... for iterator ...
-    
-
+    public E Iterator {
+        
+    }
 
     public static void main(String[] args) { 
-
+    MyDeque yep = new MyDeque<>();
+    yep.enqueueBack(2);
+    yep.enqueueBack(3);
+    System.out.println(yep.size());
         // ...
     }
 }
